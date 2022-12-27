@@ -1,0 +1,33 @@
+2022-12-25T09:44:41+00:00 CRITICAL Uncaught Error: Call to undefined function wp_trip_all_tags() in /opt/lampp/htdocs/wordpress/wp-content/themes/woostify/inc/widget/class-woostify-recent-post-thumbnail.php:148
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-widget.php(457): Woostify_Recent_Post_Thumbnail->update(Array, Array)
+#1 /opt/lampp/htdocs/wordpress/wp-admin/includes/ajax-actions.php(2395): WP_Widget->update_callback(Array)
+#2 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): wp_ajax_save_widget('')
+#3 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#4 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /opt/lampp/htdocs/wordpress/wp-admin/admin-ajax.php(188): do_action('wp_ajax_save-wi...')
+#6 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/woostify/inc/widget/class-woostify-recent-post-thumbnail.php on line 148
+
+2022-12-25T09:45:01+00:00 CRITICAL Uncaught Error: Call to undefined function wp_trip_all_tags() in /opt/lampp/htdocs/wordpress/wp-content/themes/woostify/inc/widget/class-woostify-recent-post-thumbnail.php:148
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-widget.php(457): Woostify_Recent_Post_Thumbnail->update(Array, Array)
+#1 /opt/lampp/htdocs/wordpress/wp-admin/includes/ajax-actions.php(2395): WP_Widget->update_callback(Array)
+#2 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): wp_ajax_save_widget('')
+#3 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#4 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /opt/lampp/htdocs/wordpress/wp-admin/admin-ajax.php(188): do_action('wp_ajax_save-wi...')
+#6 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/woostify/inc/widget/class-woostify-recent-post-thumbnail.php on line 148
+
+2022-12-25T09:52:42+00:00 CRITICAL Uncaught Error: Call to undefined function wp_trip_all_tags() in /opt/lampp/htdocs/wordpress/wp-content/themes/woostify/inc/widget/class-woostify-recent-post-thumbnail.php:148
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-widget.php(457): Woostify_Recent_Post_Thumbnail->update(Array, Array)
+#1 /opt/lampp/htdocs/wordpress/wp-admin/includes/ajax-actions.php(2395): WP_Widget->update_callback(Array)
+#2 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): wp_ajax_save_widget('')
+#3 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#4 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /opt/lampp/htdocs/wordpress/wp-admin/admin-ajax.php(188): do_action('wp_ajax_save-wi...')
+#6 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/woostify/inc/widget/class-woostify-recent-post-thumbnail.php on line 148
+
